@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:400,500,700|Playfair+Display:700");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    background-color: var(--backgoundColor);
+}
+:root{
+    --backgoundColor: #0b1524;
+    --buttonColor: #f9425f;
+    --textColor: #7487a3;
+    --buttonhover: #d1485f;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5% auto;
+}
+.content{
+    color: white;
+    width: 500px;
+    margin-right: 100px;
+}
+.content h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+.content p{
+    font-family: 'Heebo', sans-serif;
+    color: var(--textColor);
+    margin: 20px auto;
+    font-size: 1.2em;
+}
+.content button{
+    cursor: pointer;
+    padding:12px 20px;
+    width: 150px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    transition: all .3s ease;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.btn-1{
+    background-color: var(--textColor);
+}
+.btn-2{
+    background-color: var(--buttonColor);
+}
+.btn-2:hover{
+    background-color: var(--buttonhover);
+}
+.phone-image img{
+    width: 300px;
+    height: 600px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
